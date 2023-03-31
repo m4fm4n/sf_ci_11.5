@@ -14,15 +14,15 @@ For SF practice 11.5
 task1:
 
 
-git clone https://github.com/m4fm4n/sf_ci_11.5 /mytasks/
+git clone https://github.com/m4fm4n/sf_ci_11.5 /tmp/sql/
 
-mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam < /mytasks/sqlquery_1.sql > /tmp/test1.log
+mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam < /tmp/sql/sqlquery_1.sql > /tmp/test1.log
 
 
 task2:
 
 
-git clone https://github.com/m4fm4n/sf_ci_11.5 /mytasks/
+git clone https://github.com/m4fm4n/sf_ci_11.5 /tmp/sql/
 
-mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam < /mytasks/sqlquery_2.sql > /tmp/test2.log
+mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam < /tmp/sql/sqlquery_2.sql > /tmp/test2.log
 
