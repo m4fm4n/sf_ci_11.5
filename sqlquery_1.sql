@@ -1,1 +1,1 @@
-SELECT * FROM wikitext limit 5;
+SELECT * FROM wikitext limit 10;
