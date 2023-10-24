@@ -28,4 +28,4 @@ Task_2:
 cd /tmp/sql/data/
 git pull https://github.com/m4fm4n/sf_ci_11.5 
 mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam < /tmp/sql/data/sqlquery_2.sql > /tmp/test2.log
-```
+
