@@ -5,7 +5,7 @@
 
 ---
 
-Задача решается через Docker. Dockerfile содержит образ jenkins:2.60.3, установлен mysql-client для проверки.
+Задача решается через Jenkins + Github hook. Dockerfile содержит образ jenkins:2.60.3, в нём установлен mysql-client для проверки.
 
 Команды docker:
 ```
